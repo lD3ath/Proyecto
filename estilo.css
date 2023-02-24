@@ -1,0 +1,380 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 24px;
+  background-image: url(imagenes/bonito.jpg);
+  background-repeat: repeat;
+  }
+
+  .ancho  {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .fondo1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(imagenes/bonito.jpg);
+    background-repeat:repeat;
+
+  }
+
+
+  .logomenu {
+    height: 40px;
+  }
+
+  .yo {
+    max-width: 70px;
+    float: left;
+  }
+
+  .contenedor_menu {
+    line-height: 6px;
+    max-width: 900px;
+    float: right;
+  }
+
+  .contenedor_menu a {
+    float: right;
+    border: 10px transparent;
+  }
+
+  .contenedor_menu a:hover {
+    border-bottom: 3px blue solid;
+  }
+
+  .links  {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 15px;
+    clear: both;
+  }
+
+
+  .naranja {
+    color: #E54C3C;
+    clear: both;
+  }
+
+  .info_imagina {
+    text-align: center;
+    color: white;
+    padding: 100px;
+  }
+
+  .info_imagina h1 {
+    font-size: 40px;
+    font-family: Impact;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .info_imagina p {
+    max-width: 300px;
+    margin: auto;
+    line-height: 15px;
+    font-size: 20px;
+  }
+
+  .acercade {
+    padding-left: 100px;
+  }
+
+  .bordeizquierda {
+    border-left: 5px #E54C3C solid;
+    padding-left: 10px;
+  }
+
+  .bordeizquierda h3 {
+    font-size: 20px;
+  }
+
+  .bordeizquierda p {
+    font-size: 10px;
+  }
+
+  .información {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .foto {
+    max-width: 300px;
+    text-align: center;
+  }
+
+
+  .contenedor3  {
+    padding: 20px;
+    height: 350px;
+  }
+
+  .info {
+    max-width: 530px;
+    float: left;
+  }
+
+  .naranja {
+    color: rgb(186, 139, 28);
+    font-weight: bold;
+  }
+
+  .naranja h1 {
+    font-size: 20px;
+  }
+
+  .foto {
+    max-width: 300px;
+    float: right;
+  }
+
+  .contenedorimagenes {
+    vertical-align: middle;
+    text-align: center;
+    clear: both;
+  }
+
+
+  .imagenes {
+    max-width: 70px;
+  }
+
+  .imagenes1 {
+    max-width: 200px;
+    margin: auto;
+    height: 200px;
+  }
+
+  .imagenes2 {
+    max-width: 300px;
+    margin: auto;
+    height: 200px;
+
+  }
+
+  .imagenes3 {
+    max-width: 300px;
+    margin: auto;
+    height: 200px;
+  }
+
+
+  .trescajas {
+    padding: 15px;
+    height: 350px;
+  }
+
+  .caja1 {
+
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    margin-left: 50px;
+  }
+
+  .caja2 {
+
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+
+  .caja3 {
+
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .btn_negro {
+    background-color: black solid;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .barra {
+    width: 100%;
+    background-color: #2F2F2F transparent ;
+    height: 120px;
+    padding-left: 180px;
+    padding-top: 45px;
+  }
+
+  .barra h2 {
+    color: white;
+    float: left;
+  }
+
+  .barra p {
+    color: #dfdfdf;
+    float: left;
+  }
+
+  .menu {
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  .menu a {
+    float: right;
+    border: 1px #800000 solid;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    background-color: #E54C3C;
+  }
+
+  .cajaformulario {
+    max-width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    clear: both;
+  }
+
+  .cajaformulario button {
+    border: 1px #800000 solid;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    background-color: #E54C3C;
+  }
+
+  .elementos  {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #ccc solid;
+    width: 350px;
+  }
+
+  .login  {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #ccc solid;
+    margin-bottom: 10px;
+  }
+
+
+  .numero {
+    width: 100px;
+    padding: 10px;
+    border: 1px #ccc solid;
+  }
+
+  .cursos {
+    padding-left: 10px;
+  }
+
+  .mensaje {
+    width: 1200px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: helvetica;
+    font-size: 16px;
+    color: #ccc;
+    resize: none;
+  }
+
+  .fondonegro {
+    background-color: transparent;
+    max-width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .centrado {
+   text-align: center; 
+   display: inline-block;
+   border: 2px red solid;
+  }
+
+  .cajaimagen {
+    border: 3px blue solid;
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    height: 120px;
+  }
+
+  .cajaimagen1 {
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    margin-left: 50px;
+  }
+
+  .cajaimagen2 {
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+
+  .cajaimagen3 {
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .trescajas1 {
+    padding: 15px;
+
+  }
+
+  .fondonegro h3 {
+    color: rgb(255, 255, 255);
+  }
+
+  .cajaredes {
+    width: 1200px;
+    text-align: left;
+
+    clear: both;
+  }
+
+
+  .icono {
+  padding: 10px 10px 10px;
+  float: left;
+  }
+
+
+  .cajaredes h4 {
+    float: right;
+    color: white;
+    margin-top: 10px;
+  }
+
