@@ -156,12 +156,14 @@ body {
     max-width: 200px;
     margin: auto;
     height: 200px;
+    border-radius: 10px;
   }
 
   .imagenes2 {
     max-width: 300px;
     margin: auto;
     height: 200px;
+    border-radius: 10px;
 
   }
 
@@ -169,6 +171,7 @@ body {
     max-width: 300px;
     margin: auto;
     height: 200px;
+    border-radius: 10px;
   }
 
 
@@ -330,6 +333,7 @@ body {
     float: left;
     margin-right: 40px;
     margin-left: 50px;
+    border-radius: 10px;
   }
 
   .cajaimagen2 {
@@ -339,6 +343,7 @@ body {
     float: left;
     margin-right: 40px;
     margin-left: 20px;
+    border-radius: 10px;
   }
 
   .cajaimagen3 {
